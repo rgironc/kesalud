@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./support.js"></script>
 </head>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#ec3013"/><text x="50" y="58" font-size="34" text-anchor="middle" fill="#f3f2f2" font-family="sans-serif" font-weight="800">KS</text></svg></template>
 <body>
 <x-dc>
 <helmet>
@@ -12,13 +13,12 @@
 </helmet>
 
 <header class="nav" style="position:sticky;top:0;background:var(--color-bg);z-index:10">
-  <span class="nav-brand" style="display:flex;align-items:center;gap:10px"><img src="assets/logo-badge.png" alt="La Forja Keto" style="width:34px;height:34px;object-fit:contain"><span>La Forja Keto <span style="opacity:.55;font-weight:400;font-size:12px;display:block;letter-spacing:.06em">KESALUD</span></span></span>
-  <a href="#keto">Keto</a>
-  <a href="#kettlebell">Kettlebell</a>
-  <a href="#blog">Blog</a>
-  <a href="#sobre-mi">Sobre mí</a>
-  <a href="#tienda">Tienda</a>
-  <a href="#contacto" class="btn btn-secondary">Contacto</a>
+  <span class="nav-brand" style="display:flex;align-items:center;gap:10px"><img src="assets/logo-badge-small.png" alt="La Forja Keto" style="width:34px;height:34px;object-fit:contain"><span>La Forja Keto <span style="opacity:.55;font-weight:400;font-size:12px;display:block;letter-spacing:.06em">KESALUD</span></span></span>
+  <a href="keto.dc.html" style="font-weight:700">Keto</a>
+  <a href="kettlebell.dc.html" style="font-weight:700">Kettlebell</a>
+  <a href="#blog" style="font-weight:700">Blog</a>
+  <a href="#sobre-mi" style="font-weight:700">Sobre mí</a>
+  <a href="mailto:rgironc@zenlive.es" class="btn btn-secondary">Contacto</a>
 </header>
 
 <main style="max-width:1200px;margin:0 auto;padding:0 var(--space-6)">
@@ -29,14 +29,11 @@
       <h1 style="margin-top:var(--space-3)">Come mejor, muévete mejor, vive mejor.</h1>
       <p style="font-size:17px;opacity:.85;max-width:46ch">En KeSalud unimos la alimentación keto, la salud basada en evidencia y el entrenamiento con kettlebell — el método que entreno cada semana — en un solo sitio.</p>
       <div style="display:flex;gap:var(--space-3);margin-top:var(--space-4);flex-wrap:wrap">
-        <a href="#kettlebell" class="btn btn-primary">Empieza por Kettlebell</a>
+        <a href="kettlebell.dc.html" class="btn btn-primary">Empieza por Kettlebell</a>
         <a href="#newsletter" class="btn btn-ghost">Suscríbete gratis →</a>
       </div>
     </div>
-    <div style="position:relative;height:380px;border-radius:var(--radius-md);overflow:hidden;display:flex;align-items:center;justify-content:center;background:transparent;">
-  <img src="uploads/moneda.png" alt="Entrenamiento con kettlebell" style="max-width:90%;max-height:90%;object-fit:contain;width:auto;height:auto;filter:drop-shadow(0 0 0px rgba(255,255,255,0));">
-</div>
-    
+    <div style="position:relative;height:380px;background:var(--color-neutral-100);display:flex;align-items:center;justify-content:center;border-radius:var(--radius-md)"><img src="assets/moneda.png" alt="La Forja Keto · KeSalud" style="max-height:85%;max-width:85%;object-fit:contain"></div>
   </section>
 
   <section style="padding:var(--space-8) 0">
@@ -44,40 +41,22 @@
     <h2>Te ayudamos a mejorar tus hábitos</h2>
     <p style="opacity:.8;max-width:60ch;margin-bottom:var(--space-6)">Seis áreas, un mismo objetivo: que comas, entrenes y descanses mejor de forma sostenible.</p>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-4)">
-    <a href="#" class="card elev-sm" style="text-decoration:none;color:inherit">
+    <a href="keto.dc.html" class="card elev-sm" style="text-decoration:none;color:inherit">
       <span style="color:var(--color-accent)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg></span>
       <h4 class="card-title">Alimentación Keto</h4>
       <p class="card-body">Qué comer y por qué, sin dogmas ni prohibiciones absolutas.</p>
       <span class="card-meta" style="color:var(--color-accent)">Explorar →</span>
     </a>
-    <a href="#" class="card elev-sm" style="text-decoration:none;color:inherit">
-      <span style="color:var(--color-accent)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="13" width="3" height="6"></rect><rect x="10.5" y="9" width="3" height="10"></rect><rect x="16" y="5" width="3" height="14"></rect></svg></span>
-      <h4 class="card-title">Salud y Analítica</h4>
-      <p class="card-body">Biomarcadores y hábitos que se sostienen con evidencia.</p>
-      <span class="card-meta" style="color:var(--color-accent)">Explorar →</span>
-    </a>
-    <a href="#" class="card elev-sm" style="text-decoration:none;color:inherit">
+    <a href="kettlebell.dc.html" class="card elev-sm" style="text-decoration:none;color:inherit">
       <span style="color:var(--color-accent)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="14" r="7"></circle><path d="M9 7a3 3 0 0 1 6 0v3"></path></svg></span>
       <h4 class="card-title">Entrenamiento Kettlebell</h4>
       <p class="card-body">Fuerza, movilidad y cardio con una sola herramienta.</p>
       <span class="card-meta" style="color:var(--color-accent)">Explorar →</span>
     </a>
-    <a href="#" class="card elev-sm" style="text-decoration:none;color:inherit">
-      <span style="color:var(--color-accent)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"></circle><circle cx="12" cy="12" r="2.6"></circle></svg></span>
-      <h4 class="card-title">Mentalidad</h4>
-      <p class="card-body">La consistencia importa más que la motivación.</p>
-      <span class="card-meta" style="color:var(--color-accent)">Explorar →</span>
-    </a>
-    <a href="#" class="card elev-sm" style="text-decoration:none;color:inherit">
+    <a href="descanso.dc.html" class="card elev-sm" style="text-decoration:none;color:inherit">
       <span style="color:var(--color-accent)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13.5A7 7 0 1 1 10.5 6 5.5 5.5 0 0 0 18 13.5Z"></path></svg></span>
       <h4 class="card-title">Descanso y Recuperación</h4>
       <p class="card-body">El sueño como pilar del rendimiento, no un extra.</p>
-      <span class="card-meta" style="color:var(--color-accent)">Explorar →</span>
-    </a>
-    <a href="#" class="card elev-sm" style="text-decoration:none;color:inherit">
-      <span style="color:var(--color-accent)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="10" r="4"></circle><circle cx="16" cy="11" r="3.2"></circle></svg></span>
-      <h4 class="card-title">Comunidad</h4>
-      <p class="card-body">Aprende y entrena acompañado, no en solitario.</p>
       <span class="card-meta" style="color:var(--color-accent)">Explorar →</span>
     </a></div>
   </section>
@@ -94,82 +73,37 @@
         <div style="display:flex;gap:8px;align-items:flex-start"><span style="width:6px;height:6px;border-radius:50%;background:currentColor;margin-top:9px;flex:none;opacity:.8"></span><span>Solo necesitas una pesa y poco espacio</span></div>
       </div>
       <div style="display:flex;gap:var(--space-3);flex-wrap:wrap;margin-top:var(--space-4)">
-        <a href="#tienda" class="btn" style="background:var(--color-bg);color:var(--color-accent);border-color:var(--color-bg)">Descargar rutinas de Kettlebell</a>
-        <a href="#" class="btn btn-secondary" style="border-color:currentColor;color:inherit">Ver mi progreso</a>
+        <a href="kettlebell.dc.html" class="btn" style="background:var(--color-bg);color:var(--color-accent);border-color:var(--color-bg)">Descargar rutinas de Kettlebell</a>
+        <a href="https://www.tiktok.com/@rgironc_?_r=1&_t=ZN-98Gq6CYc4TG" target="_blank" rel="noopener" class="btn btn-secondary" style="border-color:currentColor;color:inherit">Ver mi progreso</a>
       </div>
     </div>
   </section>
 
   <section id="blog" style="padding:var(--space-8) 0">
-    <div style="display:flex;justify-content:space-between;align-items:flex-end">
-      <div>
-        <span class="card-kicker">BLOG</span>
-        <h2>Últimos artículos</h2>
-      </div>
-      <a href="#" class="btn btn-ghost">Ver todos →</a>
+    <div>
+      <span class="card-kicker">BLOG</span>
+      <h2>Últimos artículos</h2>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-4);margin-top:var(--space-4)">
-    <article class="card elev-sm">
-      <div class="grayscale" style="position:relative;height:160px;background:repeating-linear-gradient(135deg,var(--color-neutral-200),var(--color-neutral-200) 10px,var(--color-neutral-300) 10px,var(--color-neutral-300) 20px);display:flex;align-items:center;justify-content:center;border-radius:var(--radius-md)"><span style="font-family:monospace;font-size:12px;color:var(--color-neutral-700);background:var(--color-bg);padding:4px 10px;border-radius:var(--radius-sm)">FOTO: artículo · 4:3</span></div>
-      <span class="tag tag-accent" style="align-self:flex-start">KETO</span>
-      <h4 class="card-title">Cetosis nutricional: qué dice la evidencia</h4>
-      <p class="card-body">Separamos lo demostrado de la moda: adaptación, electrolitos y rendimiento.</p>
-      <a href="#" class="btn btn-ghost" style="padding-left:0">Leer artículo →</a>
-    </article>
-    <article class="card elev-sm">
-      <div class="grayscale" style="position:relative;height:160px;background:repeating-linear-gradient(135deg,var(--color-neutral-200),var(--color-neutral-200) 10px,var(--color-neutral-300) 10px,var(--color-neutral-300) 20px);display:flex;align-items:center;justify-content:center;border-radius:var(--radius-md)"><span style="font-family:monospace;font-size:12px;color:var(--color-neutral-700);background:var(--color-bg);padding:4px 10px;border-radius:var(--radius-sm)">FOTO: artículo · 4:3</span></div>
-      <span class="tag tag-accent" style="align-self:flex-start">KETTLEBELL</span>
-      <h4 class="card-title">Swing, clean y snatch: la base del entrenamiento</h4>
-      <p class="card-body">Los tres movimientos que sostienen cualquier programa de kettlebell.</p>
-      <a href="#" class="btn btn-ghost" style="padding-left:0">Leer artículo →</a>
-    </article>
-    <article class="card elev-sm">
-      <div class="grayscale" style="position:relative;height:160px;background:repeating-linear-gradient(135deg,var(--color-neutral-200),var(--color-neutral-200) 10px,var(--color-neutral-300) 10px,var(--color-neutral-300) 20px);display:flex;align-items:center;justify-content:center;border-radius:var(--radius-md)"><span style="font-family:monospace;font-size:12px;color:var(--color-neutral-700);background:var(--color-bg);padding:4px 10px;border-radius:var(--radius-sm)">FOTO: artículo · 4:3</span></div>
-      <span class="tag tag-accent" style="align-self:flex-start">SALUD</span>
-      <h4 class="card-title">Cómo leer tu analítica de sangre</h4>
-      <p class="card-body">Qué marcadores mirar y qué significan realmente para tu salud metabólica.</p>
-      <a href="#" class="btn btn-ghost" style="padding-left:0">Leer artículo →</a>
-    </article></div>
+    <div class="card elev-sm" style="margin-top:var(--space-4);padding:var(--space-8);text-align:center">
+      <span class="tag tag-outline">MUY PRONTO</span>
+      <p class="card-body" style="margin-top:var(--space-2)">Estamos preparando los primeros artículos sobre keto, salud y kettlebell. Vuelve pronto.</p>
+    </div>
   </section>
 
   <section id="tienda" style="padding:var(--space-8) 0">
     <span class="card-kicker">PROGRAMAS</span>
     <h2>Lleva KeSalud a tu día a día</h2>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-4);margin-top:var(--space-4)">
-    <div class="card elev-md">
-      <span class="card-kicker">Ebook</span>
-      <h4 class="card-title">Guía Keto KeSalud</h4>
-      <p class="card-body">Menús, listas de la compra y ajuste de macros paso a paso.</p>
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-top:var(--space-2)">
-        <strong style="font-family:var(--font-heading)">19€</strong>
-        <a href="#" class="btn btn-primary">Ver programa</a>
-      </div>
+    <div class="card elev-sm" style="margin-top:var(--space-4);padding:var(--space-8);text-align:center">
+      <span class="tag tag-outline">EN CONSTRUCCIÓN</span>
+      <p class="card-body" style="margin-top:var(--space-2)">Los ebooks, programas y asesorías 1:1 estarán disponibles muy pronto.</p>
     </div>
-    <div class="card elev-md">
-      <span class="card-kicker">Programa</span>
-      <h4 class="card-title">Kettlebell 8 Semanas</h4>
-      <p class="card-body">El programa que sigo yo mismo: progresión completa en vídeo y PDF.</p>
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-top:var(--space-2)">
-        <strong style="font-family:var(--font-heading)">39€</strong>
-        <a href="#" class="btn btn-primary">Ver programa</a>
-      </div>
-    </div>
-    <div class="card elev-md">
-      <span class="card-kicker">Asesoría</span>
-      <h4 class="card-title">1:1 Personalizada</h4>
-      <p class="card-body">Revisión de hábitos, alimentación y entrenamiento contigo.</p>
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-top:var(--space-2)">
-        <strong style="font-family:var(--font-heading)">Desde 79€</strong>
-        <a href="#" class="btn btn-primary">Ver programa</a>
-      </div>
-    </div></div>
   </section>
 
   <section id="newsletter" class="card elev-md" style="margin:var(--space-8) 0;padding:var(--space-8);text-align:center">
     <h2>Únete a la comunidad KeSalud</h2>
     <p style="max-width:50ch;margin:0 auto var(--space-4);opacity:.85">Un email a la semana con nutrición keto, hallazgos de salud y lo último de mi entrenamiento con kettlebell. Sin spam.</p>
-    <form style="display:flex;gap:var(--space-2);max-width:420px;margin:0 auto">
-      <div class="field" style="flex:1"><input class="input" type="email" placeholder="tu@email.com"></div>
+    <form action="mailto:rgironc@zenlive.es" method="post" enctype="text/plain" style="display:flex;gap:var(--space-2);max-width:420px;margin:0 auto">
+      <div class="field" style="flex:1"><input class="input" type="email" name="email" placeholder="tu@email.com" required></div>
       <button class="btn btn-primary" type="submit">Suscribirme</button>
     </form>
   </section>
@@ -180,7 +114,7 @@
       <span class="card-kicker">SOBRE MÍ</span>
       <h2>Entreno lo que enseño</h2>
       <p style="opacity:.85">Llevo años aplicando la alimentación keto y la salud basada en evidencia a mi propia vida, y ahora mismo mi foco de entrenamiento es el kettlebell: lo entreno cada semana y comparto aquí el progreso, las rutinas y lo que voy aprendiendo por el camino.</p>
-      <a href="#contacto" class="btn btn-secondary">Contactar</a>
+      <a href="mailto:rgironc@zenlive.es" class="btn btn-secondary">Contactar</a>
     </div>
   </section>
 
@@ -189,20 +123,18 @@
 <footer id="contacto" style="border-top:2px solid var(--color-divider);margin-top:var(--space-8);padding:var(--space-8) var(--space-6)">
   <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:var(--space-6)">
     <div>
-      <span class="nav-brand" style="display:flex;align-items:center;gap:10px"><img src="assets/logo-badge.png" alt="La Forja Keto" style="width:40px;height:40px;object-fit:contain"><span>La Forja Keto</span></span>
+      <span class="nav-brand" style="display:flex;align-items:center;gap:10px"><img src="assets/logo-badge-small.png" alt="La Forja Keto" style="width:40px;height:40px;object-fit:contain"><span>La Forja Keto</span></span>
       <p style="opacity:.75;max-width:36ch;margin-top:var(--space-2)">Alimentación keto, salud basada en evidencia y entrenamiento con kettlebell. www.kesalud.com · www.kesalud.es</p>
     </div>
     <div style="display:flex;flex-direction:column;gap:8px">
       <span class="card-kicker" style="color:inherit;opacity:.6">Explora</span>
-      <a href="#keto">Keto</a>
-      <a href="#kettlebell">Kettlebell</a>
+      <a href="keto.dc.html">Keto</a>
+      <a href="kettlebell.dc.html">Kettlebell</a>
       <a href="#blog">Blog</a>
-      <a href="#tienda">Tienda</a>
     </div>
     <div style="display:flex;flex-direction:column;gap:8px">
       <span class="card-kicker" style="color:inherit;opacity:.6">Contacto</span>
-      <a href="mailto:info@kesalud.com">info@kesalud.com</a>
-      <a href="#">Instagram</a>
+      <a href="https://www.instagram.com/rgironc/" target="_blank" rel="noopener">Instagram</a>
       <a href="#">YouTube</a>
     </div>
   </div>
