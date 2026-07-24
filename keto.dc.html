@@ -12,29 +12,33 @@
 </helmet>
 
 <header class="nav" style="position:sticky;top:0;background:var(--color-bg);z-index:10">
-  <a href="index.html" class="nav-brand" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="assets/logo-badge-small.png" alt="La Forja Keto" style="width:34px;height:34px;object-fit:contain"><span>La Forja Keto <span style="opacity:.55;font-weight:400;font-size:12px;display:block;letter-spacing:.06em">KESALUD</span></span></a>
-  <a href="keto.dc.html" style="font-weight:700">Keto</a>
-  <a href="kettlebell.dc.html" style="font-weight:700">Kettlebell</a>
-  <a href="index.html#blog" style="font-weight:700">Blog</a>
-  <a href="index.html#sobre-mi" style="font-weight:700">Sobre mí</a>
-  <a href="mailto:rgironc@zenlive.es" class="btn btn-secondary">Contacto</a>
+  <a href="Kesalud.dc.html" class="nav-brand" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><img src="assets/logo-badge-small.png" alt="La Forja Keto" style="width:34px;height:34px;object-fit:contain"><span>La Forja Keto <span style="opacity:.55;font-weight:400;font-size:12px;display:block;letter-spacing:.06em">KESALUD</span></span></a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+  <label for="nav-toggle" class="nav-toggle-btn" aria-label="Abrir menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></label>
+  <nav class="nav-links">
+    <a href="keto.dc.html" style="font-weight:700">Keto</a>
+    <a href="kettlebell.dc.html" style="font-weight:700">Kettlebell</a>
+    <a href="https://www.patreon.com/rgironc" target="_blank" rel="noopener" style="font-weight:700">Blog</a>
+    <a href="Kesalud.dc.html#sobre-mi" style="font-weight:700">Sobre mí</a>
+    <a href="mailto:rgironc@zenlive.es" class="btn btn-secondary">Contacto</a>
+  </nav>
 </header>
 
-<main style="max-width:1200px;margin:0 auto;padding:0 var(--space-6)">
+<main class="container">
 
   <section style="padding:var(--space-8) 0 var(--space-6)">
     <span class="tag tag-outline">ALIMENTACIÓN</span>
     <h1 style="margin-top:var(--space-3);max-width:22ch">Alimentación Keto: qué comer y por qué</h1>
     <p style="font-size:17px;opacity:.85;max-width:60ch">Nutrición basada en evidencia, sin dogmas ni prohibiciones absolutas — cetosis, macros y hábitos sostenibles a largo plazo.</p>
     <div style="display:flex;gap:var(--space-3);margin-top:var(--space-4);flex-wrap:wrap">
-      <a href="mailto:rgironc@zenlive.es" class="btn btn-primary">Descargar Guía Keto</a>
+      <a href="https://www.patreon.com/rgironc" target="_blank" rel="noopener" class="btn btn-primary">Descargar Guía Keto</a>
     </div>
   </section>
 
   <section style="padding:var(--space-6) 0">
     <span class="card-kicker">FUNDAMENTOS</span>
     <h2>De qué trata la alimentación keto</h2>
-    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:var(--space-4);margin-top:var(--space-4)">
+    <div class="grid-2" style="margin-top:var(--space-4)">
       <div class="card elev-sm"><h4 class="card-title">Cetosis nutricional</h4><p class="card-body">Reducir carbohidratos para que el cuerpo use grasa como combustible principal.</p></div>
       <div class="card elev-sm"><h4 class="card-title">Electrolitos</h4><p class="card-body">Sodio, potasio y magnesio: la clave para evitar la "gripe keto" en la adaptación.</p></div>
       <div class="card elev-sm"><h4 class="card-title">Sin dogmas</h4><p class="card-body">Ajustamos macros a tu actividad y objetivo, no a una regla rígida.</p></div>
@@ -47,15 +51,15 @@
     <h2>Guía Keto KeSalud</h2>
     <div class="card elev-sm" style="margin-top:var(--space-4);padding:var(--space-8);text-align:center">
       <span class="tag tag-outline">EN CONSTRUCCIÓN</span>
-      <p class="card-body" style="margin-top:var(--space-2)">Menús, listas de la compra y ajuste de macros paso a paso — muy pronto disponible. Escríbeme para que te avise.</p>
-      <a href="mailto:rgironc@zenlive.es" class="btn btn-primary" style="margin-top:var(--space-3);display:inline-flex">Avísame</a>
+      <p class="card-body" style="margin-top:var(--space-2)">Menús, listas de la compra y ajuste de macros paso a paso — muy pronto disponible en Patreon.</p>
+      <a href="https://www.patreon.com/rgironc" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:var(--space-3);display:inline-flex">Ir a Patreon</a>
     </div>
   </section>
 
 </main>
 
 <footer style="border-top:2px solid var(--color-divider);margin-top:var(--space-8);padding:var(--space-8) var(--space-6)">
-  <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:var(--space-6)">
+  <div class="container footer-grid" style="padding:0">
     <div>
       <span class="nav-brand" style="display:flex;align-items:center;gap:10px"><img src="assets/logo-badge-small.png" alt="La Forja Keto" style="width:40px;height:40px;object-fit:contain"><span>La Forja Keto</span></span>
       <p style="opacity:.75;max-width:36ch;margin-top:var(--space-2)">Alimentación keto, salud basada en evidencia y entrenamiento con kettlebell. www.kesalud.com · www.kesalud.es</p>
@@ -64,7 +68,7 @@
       <span class="card-kicker" style="color:inherit;opacity:.6">Explora</span>
       <a href="keto.dc.html">Keto</a>
       <a href="kettlebell.dc.html">Kettlebell</a>
-      <a href="index.html#blog">Blog</a>
+      <a href="https://www.patreon.com/rgironc" target="_blank" rel="noopener">Blog</a>
     </div>
     <div style="display:flex;flex-direction:column;gap:8px">
       <span class="card-kicker" style="color:inherit;opacity:.6">Contacto</span>
